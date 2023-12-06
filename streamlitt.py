@@ -10,10 +10,10 @@ st.write('Upload an image for classification')
 # Load the model
 st.cache(allow_output_mutation=True)
 def load_model():
-    model = tf.keras.models.load_model('https://github.com/Rohith1523/Face-classification-sports_players/blob/e8bf5150df85b3f85e07ed23b154fa042ac11d1d/model.keras')  # Replace with your model path
+    model = tf.keras.models.load_model('model.keras')  # Replace with your model path
     return model
 
-model = load_model("model.keras")
+model = load_model()
 
 # File uploader for image input
 uploaded_file = st.file_uploader("Choose an image...", type=['jpg', 'png'])
