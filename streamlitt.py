@@ -13,7 +13,7 @@ def load_model():
     model = tf.keras.models.load_model('model.keras')  # Replace with your model path
     return model
 
-model = load_model()
+model = load_model("model.keras")
 
 # File uploader for image input
 uploaded_file = st.file_uploader("Choose an image...", type=['jpg', 'png'])
