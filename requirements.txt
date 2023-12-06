@@ -1,0 +1,10 @@
+pandas
+numpy
+scikit-learn
+streamlit
+numpy
+Pillow
+tensorflow
+tqdm
+os
+PIL
